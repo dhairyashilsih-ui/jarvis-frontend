@@ -102,7 +102,7 @@ const MemberChatInterface = ({ memberId }) => {
 
 
         } else {
-          console.error("Welcome message failed:", result);
+          console.error("Welcome message failed:", JSON.stringify(result));
         }
       } catch (err) {
         console.error("Welcome error:", err);
